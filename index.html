@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <title> Formulário lista de Presença HTML </title>
+    <meta charset="uft-8">
+</head>
+
+<body bgcolor="#F0FFF0"> <!--COR DA PÁGINA--> 
+ 
+<h2 align="center">  Lista de Presença </h2>
+
+<table border="2" bordercolor="#00008B" align="center" width="500">
+<tbody><tr>  
+    <td>
+   
+        <form action="#" method="post" name="Lista de Presença">
+            <fieldset>
+                <legend> Informe seus dados </legend>
+
+
+        <br><table border="0"> 
+            
+            <tbody>
+
+            <tr> 
+                <td><input type="date" id="data" name="data" value="2022-07-25"  readonly/></td>  
+            </tr>
+                
+            <tr>
+            <td> <label> Nome completo do aluno: </label> </td>
+            <td> <input type="text" id="nome" name="nome" size="25" maxlenght="25" placeholder="Escreva seu nome aqui" required=""> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> Nome do Professor(a): </label> </td>
+                <td> <input type="text" id="nome" name="nome" size="25" placeholder="Informe o nome do seu professor" required /> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> Nome da matéria: </label> </td>
+                <td> <input type="text" id="nome" name="nome" size="25" placeholder="Informe qual é a matéria" required /> </td>
+
+            </tr>
+            
+            <tr>
+
+                <td> <label> Informe seu RA: </label> </td>
+                <td> <input type="password" id="ra" name="ra" size="25" placeholder="Insira seu RA" required /> </td>
+            </tr>    
+
+            <tr><td> <label> Informe qual sua sala: </label></td>
+            <td> <input type="text" id="turma" name="turma" size="25" maxlenght="25" placeholder="Informe qual sua turma" required=""> </td> 
+
+                </tr><tr> 
+                <td><label> Selecione seu Turno: </label>
+                </td><td>    
+                <label> <input type="radio" id="turno" name="turno" value="turno" required=""> 
+                Manhã </label>
+                <br>
+
+                <label> <input type="radio" id="turno" name="turno" value="turno" required=""> 
+                Tarde </label> 
+                <br>
+
+                <label> <input type="radio" id="turno" name="turno" value="turno" required=""> 
+                Noite </label> </td>
+                
+
+            </tr></tbody></table>
+            </fieldset>
+        
+        
+
+            <fieldset>
+            <legend> Mais Informações </legend>
+            <br> <table border="0">
+            
+
+                <tbody><tr><td> <label> E-mail: </label> </td>
+                <td> <input type="email" id="e-mail" name="e-mail" size="25" maxlenght="25" placeholder="Insira seu e-mail aqui" required=""> </td>
+
+            </tr>
+
+                <tr><td> <label> Telefone: </label> </td>
+                <td> <input type="telefone" id="telefone" name="telefone" size="25" maxlenght="25" placeholder="Informe seu telefone" required=""> </td>
+            
+            </tr>    
+
+                <tr><td> <label> Data de Nascimento: </label> </td>
+                <td> <input type="date" id="date" name="date" min="2002-01-01" max="2005-01-01" required=""> </td>
+
+            
+
+                    </tr><tr>
+                    <td><label> Comentário: </label> </td>
+                    
+                <td> <textarea id="comentário" name="comentário" maxlength="250" placeholder="Algum comentário que queira deixar aqui!"></textarea> </td>
+                </tr>
+
+                <tr>
+                    <th colspan="2"> <input type="submit" id="enviar" name="enviar" value="Enviar o Formulário"> 
+                    <input type="reset" id="limpar" name="limpar" value="Limpar Formulário">
+                    
+                    </th> 
+                </tr>
+                </tbody></table>   
+            </fieldset>
+
+                </form></td>
+                </tr>
+
+                
+            
+            </tbody></table> 
+
+        </body></html>
